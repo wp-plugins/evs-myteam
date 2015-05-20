@@ -46,7 +46,10 @@ Example usage:
 3. Insert shortcodes in description into a page.
 
 == Frequently Asked Questions ==
-None.
+
+Will there be more advanced features added in the future?
+
+Yes, if you have a suggestion please let me know!
 
 == Screenshots ==
 1. Example MyTeam Page
