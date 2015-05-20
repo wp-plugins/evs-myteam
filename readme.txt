@@ -12,7 +12,7 @@ Plugin to display team member details (specifically built for gaming teams), suc
 == Description ==
 Plugin to display team member details (specifically built for gaming teams), such as name, description, twitter, youtube, twitch and more.
 
-Add team member with shortcode: [playerselect name=\"\" description=\"\" gamertag=\"\" twitter=\"\" twitch=\"\" youtube=\"\" image=\"\" width=\"\"]
+Add team member with shortcode: [playerselect name="" description="" gamertag="" twitter="" twitch="" youtube="" image="" width=""]
 
 Name*: Member Name
 Description*: About the member
@@ -27,9 +27,9 @@ Place this code at the end of your page under the team members, to display their
 
 Example usage:
 
-Add team member with shortcode: [playerselect name=\"Name1\" description=\"This is a description.\" gamertag=\"MyGamertag1\" twitter=\"MyTwitter1\" twitch=\"MyTwitch1\" youtube=\"MyYoutube1\" image=\"http://www.imageurl.com/image.php\" width=\"200px\"]
+Add team member with shortcode: [playerselect name="Name1" description="This is a description." gamertag="MyGamertag1" twitter="MyTwitter1" twitch="MyTwitch1" youtube="MyYoutube1" image="http://www.imageurl.com/image.php" width="200px"]
 
-Add team member with shortcode: [playerselect name=\"Name2\" description=\"This is a description.\" gamertag=\"MyGamertag2\" twitter=\"MyTwitter2\" twitch=\"MyTwitch2\" youtube=\"MyYoutube2\" image=\"http://www.imageurl.com/image2.php\" width=\"200px\"]
+Add team member with shortcode: [playerselect name="Name2" description="This is a description." gamertag="MyGamertag2" twitter="MyTwitter2" twitch="MyTwitch2" youtube="MyYoutube2" image="http://www.imageurl.com/image2.php" width="200px"]
 
 [selectedplayer]
 
