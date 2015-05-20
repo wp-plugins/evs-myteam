@@ -34,9 +34,9 @@ Place this code at the end of your page under the team members, to display their
 
 Example usage:
 
-Add team member with shortcode: [playerselect name="Name1" description="This is a description." gamertag="MyGamertag1" twitter="MyTwitter1" twitch="MyTwitch1" youtube="MyYoutube1" image="http://www.imageurl.com/image.php" width="200px"]
+[playerselect name="Name1" description="This is a description." gamertag="MyGamertag1" twitter="MyTwitter1" twitch="MyTwitch1" youtube="MyYoutube1" image="http://www.imageurl.com/image.php" width="200px"]
 
-Add team member with shortcode: [playerselect name="Name2" description="This is a description." gamertag="MyGamertag2" twitter="MyTwitter2" twitch="MyTwitch2" youtube="MyYoutube2" image="http://www.imageurl.com/image2.php" width="200px"]
+[playerselect name="Name2" description="This is a description." gamertag="MyGamertag2" twitter="MyTwitter2" twitch="MyTwitch2" youtube="MyYoutube2" image="http://www.imageurl.com/image2.php" width="200px"]
 
 [selectedplayer]
 
