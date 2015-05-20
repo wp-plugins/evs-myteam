@@ -15,12 +15,19 @@ Plugin to display team member details (specifically built for gaming teams), suc
 Add team member with shortcode: [playerselect name="" description="" gamertag="" twitter="" twitch="" youtube="" image="" width=""]
 
 Name*: Member Name
+
 Description*: About the member
+
 Gamertag (Optional): Player Gamertag
+
 Twitter (Optional): Player twitter (username only)
+
 YouTube (Optional): Player twitter (username only)
+
 Twitch (Optional): Player twitch (username only)
+
 Image (Optional): Link to profile image.
+
 Width (Optional): Width of member box.
 
 Place this code at the end of your page under the team members, to display their details when selected: [selectedplayer]
