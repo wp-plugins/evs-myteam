@@ -3,7 +3,7 @@
  * Plugin Name: EVS MyTeam
  * Plugin URI: http://www.elliotvs.co.uk
  * Description: A plugin to display team member details (specifically built for gaming teams), such as name, description, twitter, youtube, twitch and more.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Elliot Sowersby
  * Author URI: http://www.elliotvs.co.uk
  * License: GPL2
