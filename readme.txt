@@ -34,9 +34,9 @@ Place this code at the end of your page under the team members, to display their
 
 Example usage:
 
-[playerselect name="Name1" description="This is a description." gamertag="MyGamertag1" twitter="MyTwitter1" twitch="MyTwitch1" youtube="MyYoutube1" image="http://www.imageurl.com/image.php" width="200px"]
+Add team member with shortcode: [playerselect name="Name1" description="This is a description." gamertag="MyGamertag1" twitter="MyTwitter1" twitch="MyTwitch1" youtube="MyYoutube1" image="http://www.imageurl.com/image.php" width="200px"]
 
-[playerselect name="Name2" description="This is a description." gamertag="MyGamertag2" twitter="MyTwitter2" twitch="MyTwitch2" youtube="MyYoutube2" image="http://www.imageurl.com/image2.php" width="200px"]
+Add team member with shortcode: [playerselect name="Name2" description="This is a description." gamertag="MyGamertag2" twitter="MyTwitter2" twitch="MyTwitch2" youtube="MyYoutube2" image="http://www.imageurl.com/image2.php" width="200px"]
 
 [selectedplayer]
 
@@ -47,15 +47,20 @@ Example usage:
 
 == Frequently Asked Questions ==
 
-Will there be more advanced features added in the future?
+Will there be more features added in the future?
 
-Yes, if you have a suggestion please let me know!
+Yes! If you have any suggestions please let me know.
 
 == Screenshots ==
+
+Live Demo: http://www.rift-gaming.com/teams/management
+
 1. Example MyTeam Page
 
 == Changelog ==
-None.
+
+Version 1.0.1
+- Fixed small bugs.
 
 == Upgrade Notice ==
 None.
