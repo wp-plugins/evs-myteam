@@ -3,7 +3,7 @@
  * Plugin Name: EVS MyTeam
  * Plugin URI: http://www.elliotvs.co.uk
  * Description: A plugin to display team member details (specifically built for gaming teams), such as name, description, twitter, youtube, twitch and more.
- * Version: 1.0.1
+ * Version: 1.0.2
  * Author: Elliot Sowersby
  * Author URI: http://www.elliotvs.co.uk
  * License: GPL2
@@ -58,11 +58,11 @@ echo '<div style="float: left; display: inline-block; margin: 7px;"><button type
 		update_post_meta( $post->ID, '$thename', $thename );
 		$image = sanitize_text_field( $_POST['image'] );
 		
-		echo '<div style="clear: left;"></div><div style="position: relative; width: 100%; height: 200px"><HR>
+		echo '<div style="clear: left;"></div><div style="position: relative; width: 100%; height: auto"><br/><HR>
 
 		<img src="'.$image.'" width="200px" style="float: left; display: inline-block; margin-right: 16px; margin-bottom: 2px; border: 2px solid #000; border-radius: 25px;">
 
-		<h3>'.$thename.'';
+		<h3>'.stripslashes($thename).'';
 
 if ($twitter) {
 echo ' | <a href="http://www.twitter.com/'.$twitter.'" target="_blank">Twitter</a>'; }
@@ -71,12 +71,12 @@ if ($twitch) { echo ' | <a href="http://www.twitch.tv/'.$twitch.'" target="_blan
 
 echo '</h3>';
 
-echo $description;
+echo stripslashes($description);
 
 echo '</div>';
 
 			if ($_POST["twitch"]) {
-				echo '<div style="position: relative;"><HR><div style="margin-top:15px"><h3>'.$twitch.' stream:</h3><center><iframe frameborder="0" height="450px" width="auto" scrolling="no" src="http://www.twitch.tv/'.$twitch.'/embed"></iframe></center><HR></div>';
+				echo '<HR><div style="margin-top:15px"><h3>'.$twitch.' - Twitch Stream:</h3><center><iframe frameborder="0" height="450px" width="100%" scrolling="no" src="http://www.twitch.tv/'.$twitch.'/embed"></iframe></center><HR>';
 			}
 		
 		}
