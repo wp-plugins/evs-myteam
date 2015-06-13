@@ -59,11 +59,11 @@ Live Demo: http://www.rift-gaming.com/teams/management
 
 == Changelog ==
 
-Version 1.0.2
-- Fixed more small bugs.
+Version 1.0.2<br>
+- Fixed more small bugs.<br>
 - Fixed styling.
-
-Version 1.0.1
+<br><br>
+Version 1.0.1<br>
 - Fixed small bugs.
 
 == Upgrade Notice ==
