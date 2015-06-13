@@ -58,7 +58,7 @@ echo '<div style="float: left; display: inline-block; margin: 7px;"><button type
 		update_post_meta( $post->ID, '$thename', $thename );
 		$image = sanitize_text_field( $_POST['image'] );
 		
-		echo '<div style="clear: left;"></div><HR>
+		echo '<div style="clear: left;"></div><div style="position: relative; width: 100%; height: 200px"><HR>
 
 		<img src="'.$image.'" width="200px" style="float: left; display: inline-block; margin-right: 16px; margin-bottom: 2px; border: 2px solid #000; border-radius: 25px;">
 
@@ -73,8 +73,10 @@ echo '</h3>';
 
 echo $description;
 
+echo '</div>';
+
 			if ($_POST["twitch"]) {
-				echo '<br/><br/><HR><div style="margin-top:15px"><h3>'.$twitch.' stream:</h3><center><iframe frameborder="0" height="450px" scrolling="no" src="http://www.twitch.tv/'.$twitch.'/embed" width="100%"></iframe></center><HR>';
+				echo '<div style="position: relative;"><HR><div style="margin-top:15px"><h3>'.$twitch.' stream:</h3><center><iframe frameborder="0" height="450px" width="auto" scrolling="no" src="http://www.twitch.tv/'.$twitch.'/embed"></iframe></center><HR></div>';
 			}
 		
 		}
